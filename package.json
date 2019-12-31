@@ -1,0 +1,19 @@
+{
+	"name": "git-auto-commit",
+	"version": "1.0.0",
+	"description": "automatically make git commits as the file system changes",
+	"main": "git-auto-commit.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.voodoowarez.com/git-auto-commit"
+	},
+	"keywords": [],
+	"author": "jauntywunderkind",
+	"license": "MIT",
+	"module": "git-auto-commit.js",
+	"esm": true,
+	"type": "module"
+}
