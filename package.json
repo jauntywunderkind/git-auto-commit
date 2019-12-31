@@ -15,5 +15,11 @@
 	"license": "MIT",
 	"module": "git-auto-commit.js",
 	"esm": true,
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"async-iter-pipe": "^1.0.2",
+		"fb-watchman": "^2.0.1",
+		"voodoo-opt": "^1.0.0",
+		"xdg-basedir": "^4.0.0"
+	}
 }
