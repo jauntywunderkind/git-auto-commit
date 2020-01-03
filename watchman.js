@@ -8,8 +8,13 @@ export function WatchProject( ...opts){
 	this.name= undefined
 	this.client= undefined
 	this.pipe= undefined
+	this.fields= undefined
 
-	this.configured= gets( this)
+	this.configured= gets( this).then(()=> {
+		if( this.fields=== undefined){
+			
+		}
+	})
 	this.watch= this.configured.then(()=> this._watch())
 	this.subscribe= this.watch.then(()=> this._subscribe())
 }
